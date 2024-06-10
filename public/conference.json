@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Tech Innovators Summit 2024",
+    "image": "https://i.ibb.co/Ctd0T7f/Rectangle-2-6.png",
+    "price": 199.99,
+    "description": "Join industry leaders and tech enthusiasts at the Tech Innovators Summit 2024. This event features keynote speeches from top technology experts, hands-on workshops, and networking opportunities with professionals from around the world. Discover the latest trends in AI, blockchain, and cybersecurity."
+  },
+  {
+    "id": 2,
+    "name": "Global Marketing Conference",
+    "image": "https://i.ibb.co/Ctd0T7f/Rectangle-2-6.png",
+    "price": 149.99,
+    "description": "The Global Marketing Conference is a premier event for marketing professionals. Learn about the latest strategies in digital marketing, social media advertising, and brand management. Connect with experts and peers to exchange ideas and grow your professional network."
+  },
+  {
+    "id": 3,
+    "name": "Healthcare Innovations Expo",
+    "image": "https://i.ibb.co/Ctd0T7f/Rectangle-2-6.png",
+    "price": 179.99,
+    "description": "The Healthcare Innovations Expo brings together healthcare professionals, innovators, and investors to explore the future of healthcare. Attend sessions on telemedicine, medical devices, and health tech startups. Discover groundbreaking technologies that are transforming the healthcare industry."
+  },
+  {
+    "id": 4,
+    "name": "Education Technology Conference",
+    "image": "https://i.ibb.co/Ctd0T7f/Rectangle-2-6.png.jpg",
+    "price": 129.99,
+    "description": "Join educators, technologists, and policymakers at the Education Technology Conference. This event covers the latest advancements in edtech, including online learning platforms, virtual classrooms, and AI-driven teaching tools. Participate in interactive sessions and workshops to enhance your teaching skills."
+  },
+  {
+    "id": 5,
+    "name": "Finance & Investment Forum",
+    "image": "https://i.ibb.co/Ctd0T7f/Rectangle-2-6.png",
+    "price": 159.99,
+    "description": "The Finance & Investment Forum is designed for finance professionals, investors, and entrepreneurs. Gain insights into market trends, investment strategies, and financial technologies. Network with industry leaders and explore opportunities for growth and innovation in the finance sector."
+  },
+  {
+    "id": 6,
+    "name": "Green Energy Summit",
+    "image": "https://i.ibb.co/Ctd0T7f/Rectangle-2-6.png",
+    "price": 159.99,
+    "description": "The Green Energy Summit focuses on sustainable energy solutions and environmental conservation. Learn about renewable energy technologies, policy developments, and sustainability practices. Connect with environmental experts and advocates to collaborate on initiatives that promote a greener future."
+  }
+]
