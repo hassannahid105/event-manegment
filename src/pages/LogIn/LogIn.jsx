@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { AuthContext } from "../../provider/AuthProvider";
 import { Link } from "react-router-dom";
 import toast, { Toaster } from "react-hot-toast";
+import SocialLogIn from "../../SocialLogIn/SocialLogIn";
 
 const LogIn = () => {
   const { handleLoginUser } = useContext(AuthContext);
@@ -67,6 +68,9 @@ const LogIn = () => {
           No, Account Please <span className="text-green-400">Register</span>
         </p>
       </Link>
+      <div>
+        <SocialLogIn></SocialLogIn>
+      </div>
     </div>
   );
 };
