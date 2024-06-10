@@ -14,12 +14,10 @@ const LogIn = () => {
     // ! create user handler
     handleLoginUser(email, password)
       .then((res) => {
-        console.log("new", res.user);
-        toast.success("Log in successfully");
+        toast.success("Log in successfully", res.user);
       })
       .catch((error) => {
-        console.log(error);
-        toast.error("Email and password are not matched");
+        toast.error("Email and password are not matched", error.message);
       });
   };
   return (

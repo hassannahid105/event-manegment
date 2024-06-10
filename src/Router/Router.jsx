@@ -5,6 +5,9 @@ import Home from "../pages/Home/Home";
 import EventCardDetails from "../component/EventSpeaker/EventCardDetails";
 import Registion from "../pages/Registion/Registion";
 import LogIn from "../pages/LogIn/LogIn";
+import About from "../pages/About/About";
+import Pricing from "../pages/Pricing/Pricing";
+import PrivateRoute from "../PrivateRoute/PrivateRoute";
 
 const router = createBrowserRouter([
   {
@@ -19,7 +22,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/description/:id",
-        element: <EventCardDetails></EventCardDetails>,
+        element: (
+          <PrivateRoute>
+            <EventCardDetails></EventCardDetails>
+          </PrivateRoute>
+        ),
       },
       {
         path: "/registion",
@@ -28,6 +35,22 @@ const router = createBrowserRouter([
       {
         path: "login",
         element: <LogIn></LogIn>,
+      },
+      {
+        path: "/about",
+        element: (
+          <PrivateRoute>
+            <About></About>
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "/pricing",
+        element: (
+          <PrivateRoute>
+            <Pricing></Pricing>
+          </PrivateRoute>
+        ),
       },
     ],
   },
