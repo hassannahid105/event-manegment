@@ -3,6 +3,8 @@ import Root from "../Root/Root";
 import ErrorPages from "../pages/ErrorPages/ErrorPages";
 import Home from "../pages/Home/Home";
 import EventCardDetails from "../component/EventSpeaker/EventCardDetails";
+import Registion from "../pages/Registion/Registion";
+import LogIn from "../pages/LogIn/LogIn";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +20,14 @@ const router = createBrowserRouter([
       {
         path: "/description/:id",
         element: <EventCardDetails></EventCardDetails>,
+      },
+      {
+        path: "/registion",
+        element: <Registion></Registion>,
+      },
+      {
+        path: "login",
+        element: <LogIn></LogIn>,
       },
     ],
   },

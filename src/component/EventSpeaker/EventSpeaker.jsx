@@ -3,7 +3,7 @@ import EventCard from "./EventCard";
 
 const EventSpeaker = ({ conferences }) => {
   return (
-    <div className="my-20 border-4 border-green-400">
+    <div className="my-20">
       <div className="text-center mb-10">
         <h2 className="text-4xl mb-4">Services</h2>
         <p>We Provide digital Services arround the world</p>

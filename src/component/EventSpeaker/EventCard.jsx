@@ -5,7 +5,7 @@ const EventCard = ({ conference }) => {
   console.log(conference);
   const { id, name, image, price, description } = conference;
   return (
-    <div className="border-4 border-red-500">
+    <div className="">
       <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl">
         <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl ">
           <img src={image} alt="profile-picture" />
